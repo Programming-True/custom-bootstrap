@@ -8,7 +8,7 @@ if (!document.getElementById(cssId1))
        link1.type = 'text/css';
        link1.href = 'https://cdn.jsdelivr.net/gh/Programming-True/custom-bootstrap@latest/FreeFramework/FreeFramework.min.css';
        link1.media = 'all';
-       head.appendChild(link);
+       head.appendChild(link1);
 }
 
 var cssId2 = 'css2';  // you could encode the css path itself to generate id..
@@ -21,7 +21,7 @@ if (!document.getElementById(cssId2))
        link2.type = 'text/css';
        link2.href = 'https://cdn.jsdelivr.net/gh/Programming-True/custom-bootstrap@latest/FreeFramework/FreeFramework-grid.min.css';
        link2.media = 'all';
-       head.appendChild(link);
+       head.appendChild(link2);
 }
 
 
@@ -35,5 +35,5 @@ if (!document.getElementById(cssId3))
        link3.type = 'text/css';
        link3.href = 'https://cdn.jsdelivr.net/gh/Programming-True/custom-bootstrap@latest/FreeFramework/FreeFramework-reboot.min.css';
        link3.media = 'all';
-       head.appendChild(link);
+       head.appendChild(link3);
 }
